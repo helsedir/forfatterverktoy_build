@@ -1,4 +1,46 @@
-<published-stage resource="Seksjonen" publishedstage="section.publishedStage"></published-stage> <article class="container Recommendations"> <!--Header row--> <div class="row"> <div class="col-md-12 nopadding"> <header id="pageheader" class="pageheader"> <nav> <ol class="breadcrumbs clearfix"> <li><a href="#">Forside</a></li> <li><a href="#" class="active">Nasjonale faglige retningslinjer</a></li> <li><a href="#/{{guideline.guidelineId}}/" class="active">{{guideline.title}}</a></li> <li><a href="#/{{guideline.guidelineId}}/" class="active">{{recommendation.heading}}</a></li> </ol> </nav> <div class="headerGroup"> <span class="guidelinetitle smalltitle">{{guideline.title}}</span> <h1 class="sectiontitle">{{section.heading}}</h1> </div> </header> </div> </div> <!--Recommendations--> <div class="row"> <div class="col-md-12 col-lg-8"> <section class="Recommendation" ng-repeat="recommendation in section.recommendations" ng-hide="recommendation.isDeleted"> <recommendation></recommendation> </section> <!--About section--> <about-section></about-section> </div> <aside class="col-md-12 col-lg-3 pull-right guidelines"> <div class="module module_related green col-md-6"> <h3>Relaterte anbefalinger</h3> <ul class="linklist"> <li><a href="#">Sepsis</a></li> <li><a href="#">Antibiotika</a></li> <li><a href="#">Sepsis</a></li> </ul> <img class="pulse" src="img/modules/EKG-groenn.png" alt=""> </div> <div class="module module_related blue col-md-6"> <h3>Relaterte retningslinjer</h3> <ul class="linklist"> <li><a href="#">Antibiotika</a></li> <li><a href="#">Sepsis</a></li> <li><a href="#">Sepsis</a></li> </ul> <img class="pulse" src="img/modules/EKG-lyseblaa.png" alt=""> </div> </aside> <!-- row --> </div> <!-- end container --> </article> <script>//We need to wait until Angular is finished with the DOM
-    window.setTimeout(function(){
-        runJqueryUIRecommendationStuff();
-    }, 1000);</script>
+<article>
+	<div class="row relative">
+		<div class="col-md-8">
+			<h1>Seksjon</h1>
+		</div>
+		<div class="col-md-4 previewbuttoncontainer">
+			<preview-button></preview-button>
+		</div>
+	</div>
+
+	<section id="Section">
+		
+		<form role="form" ng-submit="updateOrCreateSection()">
+			<div class="form-group">
+				<label for="heading">Tittel</label>
+				<input type="text" class="form-control" id="heading" ng-model="section.heading">
+			</div>
+			<!-- <div class="form-group">
+					<label for="text">Text</label>
+					<textArea type="text" class="form-control" id="text" ng-model="section.text"></textArea>
+			</div> -->
+			<div class="form-group">
+				<label for="text">Tekst</label>
+				<textarea ng-model="section.text" redactor></textarea>
+			</div>
+			<div class="form-group col-md-12">
+				<label for="type">Publiseringsstatus</label>
+				<select class="form-control" id="type" ng-model="section.publishedStage">
+					<option value="0">Kladd</option>
+					<option value="1">På høring</option>
+					<option value="2">Publisert</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-primary btn-lg">Lagre</button>
+			<button ng-show="section.sectionId" type="button" class="btn btn-link btn-delete" ng-confirm-click="Er du sikker på at du vil slette seksjonen {{section.heading}}" ng-click="deleteSectionBtnClick()">Slett <span class="glyphicon glyphicon-remove"></span></button>
+		</form>
+	</section>
+	<br><br>
+	
+	<recommendations-list></recommendations-list>
+
+	<subsections-list></subsections-list>
+	<small ng-show="section.sectionId">
+		<p><b>Opprettet av:</b> {{section.createdBy}}, <i>{{section.createdDate | date}}</i> <b>Oppdatert av:</b> {{section.updatedBy}}, <i>{{section.updatedDate | date}}</i></p>
+	</small>
+</article>
