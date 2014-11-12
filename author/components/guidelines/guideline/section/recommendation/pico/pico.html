@@ -1,30 +1,33 @@
 <article>
 
     <section>
-        <form role="form" ng-submit="updateOrCreatePico()">
+        <form role="form" ng-submit="updateOrCreatePico()" class="form-horizontal">
             <div class="form-group">
-                <label for="summary">Summary</label>
+                <label for="summary">Sammendrag</label>
                 <textarea class="form-control" id="summary" ng-model="pico.summary" rows="10"></textarea>
             </div>
             <div class="form-group">
-                <label for="population">Population</label>
-                <input type="text" class="form-control" id="population" ng-model="pico.population">
+                <label for="population" class="col-sm-12">Populasjon</label>    
+                <div class="col-sm-10"><input type="text" class="form-control" id="population" ng-model="pico.population"></div>
+                <button class="btn btn-default col-sm-2" ng-click="taxCodeBtnClick(0)" type="button" ng-class="{disabled: !pico.picoId}">Kodeverk</button>
             </div>
+
             <div class="form-group">
-                <label for="intervention">Intervention</label>
-                <input type="text" class="form-control" id="intervention" ng-model="pico.intervention">
+                <label for="intervention" class="col-sm-12">Intervensjon</label>    
+                <div class="col-sm-10"><input type="text" class="form-control" id="intervention" ng-model="pico.intervention"></div>
+                <button class="btn btn-default col-sm-2" ng-click="taxCodeBtnClick(1)" type="button" ng-class="{disabled: !pico.picoId}">Kodeverk</button>
             </div>
+
+           <div class="form-group">
+               <label for="control" class="col-sm-12">Komparator</label>    
+               <div class="col-sm-10"><input type="text" class="form-control" id="control" ng-model="pico.control"></div>
+               <button class="btn btn-default col-sm-2" ng-click="taxCodeBtnClick(2)" type="button" ng-class="{disabled: !pico.picoId}">Kodeverk</button>
+           </div>
+
             <div class="form-group">
-                <label for="control">Control</label>
-                <input type="text" class="form-control" id="control" ng-model="pico.control">
-            </div>
-            <div class="form-group">
-                <label for="outcome">Outcome</label>
-                <input type="text" class="form-control" id="outcome" ng-model="pico.outcome">
-            </div>
-            <div class="form-group">
-                <label for="newEvidence">New Evidence</label>
-                <input type="text" class="form-control" id="newEvidence" ng-model="pico.newEvidence">
+                <label for="outcome" class="col-sm-12">Utfall</label>    
+                <div class="col-sm-10"><input type="text" class="form-control" id="outcome" ng-model="pico.outcome"></div>
+               <button class="btn btn-default col-sm-2" ng-click="taxCodeBtnClick(3)" type="button" ng-class="{disabled: !pico.picoId}">Kodeverk</button>
             </div>
 
             <button type="submit" class="btn btn-primary btn-lg">Lagre</button>
@@ -33,10 +36,6 @@
         </form>
     </section>
     <br><br><br>
-
-    <picocodes-list></picocodes-list>
-
-    <picocont-list></picocont-list>
 
     <picooutcomes-list></picooutcomes-list>
 
