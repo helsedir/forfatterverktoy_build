@@ -9,8 +9,6 @@
 		</div>
 	</div>
 
-	<on-hearing publishedStage="recommendation.publishedStage"></on-hearing>
-	
 	<section id="Recommendation">
 		<form role="form" ng-submit="updateOrCreateRecommendation()">
 			<div class="form-group">
@@ -51,7 +49,7 @@
 				<label for="type">Publiseringsstatus</label>
 				<select class="form-control" id="type" ng-model="recommendation.publishedStage" ng-change="changePublishedStage()">
 					<option value="0">Kladd</option>
-					<option value="1">På høring</option>
+					<option value="1">Høringsutkast</option>
 					<option value="2">Publisert</option>
 				</select>
 			</div>
