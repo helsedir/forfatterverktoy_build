@@ -2,7 +2,379 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b3a42b-68bb-4160-ac4a-64f8e965f9de" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-mocks/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/.buildignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/img/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/CHANGES" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-mocks/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/utilities/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_common.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/utilities/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_guideline_childsections.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_guideline_frontpage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_guideline_recommendations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_guidelines_frontpage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/vendor/_jquery_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/utilities/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/vendor/_responsive_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/partials/_search.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/utilities/_snippets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/aboutguidelineexpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/aboutsection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/dist/angular-local-storage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/dist/angular-local-storage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-mocks/angular-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/angular-resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/angular-resource.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/angular-resource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/angular-route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/angular-route.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/angular-scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/dist/angular-toastr.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/dist/angular-toastr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/dist/angular-toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/dist/angular-toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/services/authService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/services/authinterceptorservice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-mocks/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-toastr/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/demo/demo-app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/demo/demo-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/demo/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/services/errorservice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-sham.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-sham.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-sham.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-shim.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/es5-shim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/explanationclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/grading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/guideline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/vendor/guideline_jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/vendor/helsedir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/vendor/jquery-responsivetabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/lib/json3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/json3/lib/json3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/jstd-scenario-adapter-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-scenario/jstd-scenario-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/loginController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/vendor/magnific-popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/magnificpopup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/styles/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-local-storage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-mocks/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-resource/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-route/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/printauthor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/printguideline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/printrecommendation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/printsection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/publishedstage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/recommendation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/recommendation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/recommendationStrength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/services/resourceFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/responsive-tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/controllers/section.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/es5-shim/shims.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/directives/tableofcontents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/scripts/vendor/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/ui-bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/angular-bootstrap/ui-bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preview/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\images\helsedir.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\images\yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\styles\vendor.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\scripts\oldieshim.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\scripts\scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\scripts\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\scripts\oldieshim.a466b7b1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\scripts\scripts.70d679a0.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\scripts\vendor.6f53ae44.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/404.html" afterPath="$PROJECT_DIR$/author/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/404.html" afterPath="$PROJECT_DIR$/preview/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/partials/_aboutsection.html" afterPath="$PROJECT_DIR$/preview/views/partials/_aboutsection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/author/_createorupdateauthormodal.html" afterPath="$PROJECT_DIR$/author/components/author/_createorupdateauthormodal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/reference/_createorupdatereferencemodal.html" afterPath="$PROJECT_DIR$/author/components/reference/_createorupdatereferencemodal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/common/_login.html" afterPath="$PROJECT_DIR$/author/common/_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/common/_publishedstage.html" afterPath="$PROJECT_DIR$/author/common/_publishedstage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/partials/_recommendation.html" afterPath="$PROJECT_DIR$/preview/views/partials/_recommendation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/guidelines/guideline/section/recommendation/_referenceslist.html" afterPath="$PROJECT_DIR$/author/components/guidelines/guideline/section/recommendation/_referenceslist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/guidelines/guideline/section/recommendation/_referencesmodal.html" afterPath="$PROJECT_DIR$/author/components/guidelines/guideline/section/recommendation/_referencesmodal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/common/_sortordermodal.html" afterPath="$PROJECT_DIR$/author/common/_sortordermodal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/author/author.html" afterPath="$PROJECT_DIR$/author/components/author/author.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/childsection.html" afterPath="$PROJECT_DIR$/preview/views/childsection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/guideline.html" afterPath="$PROJECT_DIR$/preview/views/guideline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/guidelines/guidelines.html" afterPath="$PROJECT_DIR$/author/components/guidelines/guidelines.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/index.html" afterPath="$PROJECT_DIR$/author/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/index.html" afterPath="$PROJECT_DIR$/preview/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/common/login.html" afterPath="$PROJECT_DIR$/author/common/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/login.html" afterPath="$PROJECT_DIR$/preview/views/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/assets/styles/main.css" afterPath="$PROJECT_DIR$/author/assets/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/main.html" afterPath="$PROJECT_DIR$/preview/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/notpublished.html" afterPath="$PROJECT_DIR$/preview/views/notpublished.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/print.html" afterPath="$PROJECT_DIR$/preview/views/print.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/recommendation.html" afterPath="$PROJECT_DIR$/preview/views/recommendation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/components/reference/reference.html" afterPath="$PROJECT_DIR$/author/components/reference/reference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/common/register.html" afterPath="$PROJECT_DIR$/author/common/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/views/section.html" afterPath="$PROJECT_DIR$/preview/views/section.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\author\assets\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/preview/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\common.0e4f3e18.css" afterPath="$PROJECT_DIR$/preview/styles/common.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\font_calibri.ab30dde9.css" afterPath="$PROJECT_DIR$/preview/styles/font_calibri.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\font_soho.95774e27.css" afterPath="$PROJECT_DIR$/preview/styles/font_soho.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\fonts.b0c8368e.css" afterPath="$PROJECT_DIR$/preview/styles/fonts.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\magnific-popup.3f01524e.css" afterPath="$PROJECT_DIR$/preview/styles/magnific-popup.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\main.467008d7.css" afterPath="$PROJECT_DIR$/preview/styles/main.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\masterpage.3122a8e8.css" afterPath="$PROJECT_DIR$/preview/styles/masterpage.css" />
+      <change type="MOVED" beforePath="D:\Helsedirektoratet\forfatterverktoy\dist\preview\styles\reset.fba3906c.css" afterPath="$PROJECT_DIR$/preview/styles/reset.css" />
     </list>
     <ignored path="dist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +398,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scripts.d0f72a3f.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/preview/scripts/scripts.d0f72a3f.js">
+      <file leaf-file-name="resourceFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/scripts/services/resourceFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034428794" vertical-offset="0" max-vertical-offset="639">
-              <caret line="1" column="4625" selection-start-line="1" selection-start-column="4623" selection-end-line="1" selection-end-column="4625" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="2288">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authinterceptorservice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/scripts/services/authinterceptorservice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preview/scripts/services/authService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1936">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accordion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preview/scripts/directives/accordion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43711656" vertical-offset="243" max-vertical-offset="1232">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,6 +442,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/preview/scripts/services/resourceFactory.js" />
+        <option value="$PROJECT_DIR$/preview/scripts/services/authService.js" />
+        <option value="$PROJECT_DIR$/preview/scripts/directives/accordion.js" />
+      </list>
+    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -73,6 +484,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,9 +535,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="preview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,8 +606,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1170" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -165,13 +620,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -195,18 +650,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/preview/scripts/scripts.d0f72a3f.js">
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/resourceFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="2288">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authinterceptorservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preview/scripts/scripts.d0f72a3f.js">
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034428794" vertical-offset="0" max-vertical-offset="639">
-          <caret line="1" column="4625" selection-start-line="1" selection-start-column="4623" selection-end-line="1" selection-end-column="4625" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1936">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/directives/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/resourceFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="2288">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authinterceptorservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1936">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/resourceFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2288">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authinterceptorservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/services/authService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1936">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preview/scripts/directives/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43711656" vertical-offset="243" max-vertical-offset="1232">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
