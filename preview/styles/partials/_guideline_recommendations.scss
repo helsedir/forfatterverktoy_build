@@ -588,6 +588,8 @@
         font-style: italic;
     }
 
+  &.evidensprofil{
+
     @media (max-width: 1150px){
         /* Force table to not be like tables anymore */
             table, thead, tbody, th, td, tr {
@@ -649,7 +651,7 @@
                         td:nth-of-type(7):before {@extend %bold; content: "Antall inkluderte"; }
                         td:nth-of-type(8):before {@extend %bold; content: "Antall studier"; }
                         td:nth-of-type(9):before {@extend %bold; content: "Oppf\f8lgingstid"; }
-    }
+    }}
 
     .picomodalheader {
         background: $colorQuillGray;
@@ -720,8 +722,14 @@
 }
 
 .picosummarycontent, .picoreferencescontent{
-    max-width: 600px;
-    padding: 30px 30px;
+  @extend .bulletlist;
+  @extend .table;
+  table {
+    margin: inherit;
+  }
+  min-width: 300px;
+  max-width: 800px;
+  padding: 30px 30px;
 }
 
 #rasjonale, #praktisk, #nokkelinfo, #print{
