@@ -16,11 +16,10 @@ function responsiveTables() {
 
     else if ($(this).find('.rationallink') || $(this).find('.practicaladvicelink')) {
       context = $(this).closest('.tabs').find('.resp-tabs-container');
-    }
-
-    else if ($(this).hasClass('picosummarylink')) {
-      context = $(document).find('.picosummary');
-
+      if ($(this).hasClass('picosummarylink')) {
+        console.log('yes');
+        context = $(document).find('.picosummary');
+      }
     }
 
     window.setTimeout(function(){
