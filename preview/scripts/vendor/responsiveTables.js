@@ -14,13 +14,14 @@ function responsiveTables() {
       context = $(this).closest('.pageheader').find('.aboutexpand');
     }
 
-    else if ($(this).find('.rationallink') || $(this).find('.practicaladvicelink')) {
-      context = $(this).closest('.tabs').find('.resp-tabs-container');
-      if ($(this).hasClass('picosummarylink')) {
-        console.log('yes');
-        context = $(document).find('.picosummary');
-      }
+    else if ($(this).hasClass('picosummarylink')) {
+      context = $(document).find('.picosummary');
     }
+
+    /*else if ($(this).find('.rationallink') || $(this).find('.practicaladvicelink')) {
+      context = $(this).closest('.tabs').find('.resp-tabs-container');
+
+    }*/
 
     window.setTimeout(function(){
       loopTables(context);
