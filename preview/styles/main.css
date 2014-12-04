@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\000032}}
-.bulletlist ul li, .container .aboutsection ul li, .container .aboutsectioncontent ul li, .Guidelinefrontpage .aboutexpand ul li, .Recommendation .textContainer ul li, .picosummarycontent ul li, .picoreferencescontent ul li, #rasjonale ul li, #praktisk ul li, #nokkelinfo ul li, #print ul li {
+.bulletlist ul li, .container .aboutsection ul li, .container .aboutsectioncontent ul li, .Guidelinefrontpage .aboutexpand ul li, .Recommendation .textContainer ul li, .picosummarycontent ul li, .picoreferencescontent ul li, #rasjonale ul li, #praktisk ul li, #nokkelinfo ul li, #print ul li, .Guidelinechildsection .aboutexpand ul li {
   list-style-position: outside;
   margin-top: 10px;
   margin: 0 0 10px 25px;
   display: block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\000037}}
-.bulletlist ul li:before, .container .aboutsection ul li:before, .container .aboutsectioncontent ul li:before, .Guidelinefrontpage .aboutexpand ul li:before, .Recommendation .textContainer ul li:before, .picosummarycontent ul li:before, .picoreferencescontent ul li:before, #rasjonale ul li:before, #praktisk ul li:before, #nokkelinfo ul li:before, #print ul li:before {
+.bulletlist ul li:before, .container .aboutsection ul li:before, .container .aboutsectioncontent ul li:before, .Guidelinefrontpage .aboutexpand ul li:before, .Recommendation .textContainer ul li:before, .picosummarycontent ul li:before, .picoreferencescontent ul li:before, #rasjonale ul li:before, #praktisk ul li:before, #nokkelinfo ul li:before, #print ul li:before, .Guidelinechildsection .aboutexpand ul li:before {
   content: "\2022";
   color: #004e66;
   margin: -1px 0 0 -25px;
@@ -16,12 +16,20 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\0000318}}
-.table table, .container .aboutsectioncontent table, .Guidelinefrontpage .aboutexpand table, .picosummarycontent table, .picoreferencescontent table, #rasjonale table, #praktisk table, #nokkelinfo table, #print table {
+.table table, .container .aboutsectioncontent table, .Guidelinefrontpage .aboutexpand table, .Recommendation .textContainer table, .picosummarycontent table, .picoreferencescontent table, #rasjonale table, #praktisk table, #nokkelinfo table, #print table, .Guidelinechildsection .aboutexpand table {
   margin-top: 15px;
   border-collapse: collapse;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\0000323}}
-.table td, .container .aboutsectioncontent td, .Guidelinefrontpage .aboutexpand td, .picosummarycontent td, .picoreferencescontent td, #rasjonale td, #praktisk td, #nokkelinfo td, #print td, .table th, .container .aboutsectioncontent th, .Guidelinefrontpage .aboutexpand th, .picosummarycontent th, .picoreferencescontent th, #rasjonale th, #praktisk th, #nokkelinfo th, #print th {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\0000322}}
+.table th, .container .aboutsectioncontent th, .Guidelinefrontpage .aboutexpand th, .Recommendation .textContainer th, .picosummarycontent th, .picoreferencescontent th, #rasjonale th, #praktisk th, #nokkelinfo th, #print th, .Guidelinechildsection .aboutexpand th {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\0000326}}
+.table thead td, .container .aboutsectioncontent thead td, .Guidelinefrontpage .aboutexpand thead td, .Recommendation .textContainer thead td, .picosummarycontent thead td, .picoreferencescontent thead td, #rasjonale thead td, #praktisk thead td, #nokkelinfo thead td, #print thead td, .Guidelinechildsection .aboutexpand thead td {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_snippets\.scss}line{font-family:\0000330}}
+.table td, .container .aboutsectioncontent td, .Guidelinefrontpage .aboutexpand td, .Recommendation .textContainer td, .picosummarycontent td, .picoreferencescontent td, #rasjonale td, #praktisk td, #nokkelinfo td, #print td, .Guidelinechildsection .aboutexpand td, .table th, .container .aboutsectioncontent th, .Guidelinefrontpage .aboutexpand th, .Recommendation .textContainer th, .picosummarycontent th, .picoreferencescontent th, #rasjonale th, #praktisk th, #nokkelinfo th, #print th, .Guidelinechildsection .aboutexpand th {
   border: 1px solid #999;
   padding: 0.5rem;
   text-align: left;
@@ -242,6 +250,56 @@ form.retningslinjerSok #searchinput {
     font-size: 12pt;
     line-height: 1.3;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003222}}
+.breakTable {
+  /* Force table to not be like tables anymore */
+  /* Hide table headers (but not display: none;, for accessibility) */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003224}}
+.breakTable table, .breakTable thead, .breakTable tbody, .breakTable th, .breakTable td, .breakTable tr {
+  border: none !important;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003229}}
+.breakTable thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003236}}
+.breakTable tr:first-child {
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003241}}
+.breakTable td {
+  /* Behave  like a "row" */
+  position: relative;
+  padding-left: 15px;
+  word-break: break-all;
+  border-left: 1px solid #000000 !important;
+  border-right: 1px solid #000000 !important;
+  border-bottom: 1px solid #000000 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003249}}
+.breakTable td:last-child {
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003253}}
+.breakTable td:first-child {
+  border-top: 1px solid #000000 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_common\.scss}line{font-family:\00003258}}
+.breakTable td:before {
+  padding-right: 10px;
+  content: attr(data-th);
+  word-break: break-all;
+  font-weight: bold;
+  position: relative;
+  top: auto;
+  left: auto;
+  display: block;
 }
 
 /*Retningslinje forside. Liste over alle nasjonale faglige retningslinjer */
@@ -1081,64 +1139,64 @@ form.retningslinjerSok #searchinput {
     padding: 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003347}}
 .Recommendation .textContainer.gradingStrong {
   border-left: 2px solid #77438d;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003347}}
   .Recommendation .textContainer.gradingStrong {
     border-left: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003353}}
 .Recommendation .textContainer.gradingWeak {
   border-left: 2px solid #6cb4b5;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003353}}
   .Recommendation .textContainer.gradingWeak {
     border-left: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003359}}
 .Recommendation .textContainer.gradingNone {
   border-left: 2px solid #aeaba8;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003359}}
   .Recommendation .textContainer.gradingNone {
     border-left: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003365}}
 .Recommendation .textContainer.gradingNone .recommendation-text {
   padding-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003368}}
 .Recommendation .textContainer.gradingNone.gradingBlank {
   border-left: 2px solid #fff;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003368}}
   .Recommendation .textContainer.gradingNone.gradingBlank {
     border-left: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003374}}
 .Recommendation .textContainer.gradingNone .recommendation-text {
   max-width: 650px;
   padding-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003380}}
 .Recommendation .textContainer.gradingNone .recommendation-text dl dt {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003383}}
 .Recommendation .textContainer.gradingNone .recommendation-text dl dd {
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003389}}
 .Recommendation .textContainer img.pulse {
   top: 40px;
   position: absolute;
@@ -1146,26 +1204,26 @@ form.retningslinjerSok #searchinput {
   height: 57px;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003389}}
   .Recommendation .textContainer img.pulse {
     display: none;
   }
 }
 
 /* Navigational tabs within recommendation */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003401}}
 .Recommendation .tabs {
   margin-top: 45px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003404}}
 .Recommendation .tabs .resp-tabs-list {
   margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 30px;
   text-align: justify;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003409}}
 .Recommendation .tabs .resp-tabs-list .resp-tab-item {
   cursor: pointer;
   padding: 2px 10px;
@@ -1173,42 +1231,42 @@ form.retningslinjerSok #searchinput {
   background-color: #eeeded;
   margin-right: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003416}}
 .Recommendation .tabs .resp-tabs-list .resp-tab-item:last {
   margin-right: 0;
   margin-left: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003420}}
 .Recommendation .tabs .resp-tabs-list .resp-tab-item a {
   font-size: 18px;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003423}}
 .Recommendation .tabs .resp-tabs-list .resp-tab-item a:focus, .Recommendation .tabs .resp-tabs-list .resp-tab-item a:visited:focus {
   color: #000 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003427}}
 .Recommendation .tabs .resp-tabs-list .resp-tab-item.resp-tab-active {
   background-color: #f5f5f5;
   height: 40px;
   font-family: "Calibri-Bold";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003433}}
 .Recommendation .tabs .resp-tabs-list.open {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003437}}
 .Recommendation .tabs .resp-tabs-container {
   border-left: 15px solid #fff;
   border-right: 15px solid #fff;
   border-bottom: 15px solid #fff;
   /* container divs for tab content */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003439}}
 .Recommendation .tabs .resp-tabs-container p {
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003442}}
 .Recommendation .tabs .resp-tabs-container .keyinfoheading {
   margin: 30px 0 0 0;
   line-height: 36px;
@@ -1216,21 +1274,21 @@ form.retningslinjerSok #searchinput {
   font-size: 28px;
 }
 @media (min-width: 993px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003437}}
   .Recommendation .tabs .resp-tabs-container {
     background-color: #f5f5f5;
     font-size: 18px;
   }
 }
 @media (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003437}}
   .Recommendation .tabs .resp-tabs-container {
     margin-left: 35px;
     margin-right: 35px;
   }
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003437}}
   .Recommendation .tabs .resp-tabs-container {
     margin: 0;
     border: 0;
@@ -1239,7 +1297,7 @@ form.retningslinjerSok #searchinput {
     padding-bottom: 3px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003471}}
 .Recommendation .tabs .resp-tabs-container > div {
   padding-top: 30px;
   margin-left: 60px;
@@ -1247,7 +1305,7 @@ form.retningslinjerSok #searchinput {
   padding-bottom: 30px;
 }
 @media (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003471}}
   .Recommendation .tabs .resp-tabs-container > div {
     background-color: #f5f5f5;
     margin: 0;
@@ -1256,28 +1314,28 @@ form.retningslinjerSok #searchinput {
   }
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003471}}
   .Recommendation .tabs .resp-tabs-container > div {
     background-color: #eeeded;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003487}}
 .Recommendation .tabs .resp-tabs-container .resp-accordion {
   padding: 7px 20px;
   background-color: #eeeded;
   margin-top: 3px;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003487}}
   .Recommendation .tabs .resp-tabs-container .resp-accordion {
     background-color: #fff;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003497}}
 .Recommendation .tabs .resp-tabs-container .resp-accordion a {
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003500}}
 .Recommendation .tabs .resp-tabs-container .resp-accordion a:before {
   padding-right: 10px;
   font-size: 30px;
@@ -1286,37 +1344,37 @@ form.retningslinjerSok #searchinput {
   text-decoration: none;
   color: #838078;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003509}}
 .Recommendation .tabs .resp-tabs-container .resp-accordion.resp-tab-active {
   background-color: #f5f5f5;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003509}}
   .Recommendation .tabs .resp-tabs-container .resp-accordion.resp-tab-active {
     background-color: #eeeded;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003516}}
 .Recommendation .tabs .resp-tabs-container .resp-accordion.resp-tab-active a:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003522}}
 .Recommendation .tabs .resp-tabs-container ul.linklist {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003524}}
 .Recommendation .tabs .resp-tabs-container ul.linklist li {
   display: inline-block;
   margin-right: 20px;
   line-height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003528}}
 .Recommendation .tabs .resp-tabs-container ul.linklist li a {
   font-size: 18px;
   text-decoration: underline;
   color: #000 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003532}}
 .Recommendation .tabs .resp-tabs-container ul.linklist li a:after {
   content: url("../img/modules/icons/ico-full-skjerm.svg");
   display: inline-block;
@@ -1325,32 +1383,32 @@ form.retningslinjerSok #searchinput {
   margin-left: 15px;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003524}}
   .Recommendation .tabs .resp-tabs-container ul.linklist li {
     display: block;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003548}}
 .Recommendation .button-close {
   width: 100%;
   height: 30px;
   display: block;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003548}}
   .Recommendation .button-close {
     height: 44px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003556}}
 .Recommendation .button-close i {
   color: #fff;
   margin-left: 20px;
   font-size: 28px;
 }
 @media (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003556}}
   .Recommendation .button-close i {
     font-size: 30px;
     position: relative;
@@ -1359,20 +1417,20 @@ form.retningslinjerSok #searchinput {
     transform: translateY(-50%);
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003565}}
 .Recommendation .button-close.gradingStrong {
   background-color: #77438d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003568}}
 .Recommendation .button-close.gradingWeak {
   background-color: #6cb4b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003571}}
 .Recommendation .button-close.gradingNone {
   background-color: #aeaba8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003576}}
 .picomodal {
   width: auto;
   min-width: 300px;
@@ -1382,173 +1440,107 @@ form.retningslinjerSok #searchinput {
   font-size: 18px;
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003584}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003588}}
 .picomodal .block {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003591}}
 .picomodal i {
   font-style: italic;
 }
 @media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003595}}
   .picomodal.evidensprofil {
     /* Force table to not be like tables anymore */
     /* Hide table headers (but not display: none;, for accessibility) */
-    /*
-        Label the data
-        */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000329}}
   .picomodal.evidensprofil table, .picomodal.evidensprofil thead, .picomodal.evidensprofil tbody, .picomodal.evidensprofil th, .picomodal.evidensprofil td, .picomodal.evidensprofil tr {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000333}}
   .picomodal.evidensprofil thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000338}}
   .picomodal.evidensprofil tr {
     border-bottom: 15px solid #ccc;
   }
-}
-@media all and (max-width: 1150px) and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000339}}
   .picomodal.evidensprofil tr:first-child {
     margin-top: 15px;
   }
-}
-@media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003612}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000344}}
   .picomodal.evidensprofil td {
     /* Behave  like a "row" */
     border: none;
     position: relative;
-    padding-left: 250px;
-  }
-}
-@media all and (max-width: 1150px) and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003612}}
-  .picomodal.evidensprofil td {
     padding-left: 15px;
   }
-}
-@media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000349}}
   .picomodal.evidensprofil td:last-child {
     margin-bottom: 5px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/utilities\/_mixins\.scss}line{font-family:\0000354}}
   .picomodal.evidensprofil td:before {
-    /* Now like a table header */
-    position: absolute;
-    /* Top/left values mimic padding */
-    top: 6px;
-    left: 6px;
-    width: 45%;
     padding-right: 10px;
-    white-space: nowrap;
-  }
-}
-@media all and (max-width: 1150px) and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003625}}
-  .picomodal.evidensprofil td:before {
+    content: attr(data-th);
+    word-break: break-all;
+    font-weight: bold;
     position: relative;
     top: auto;
     left: auto;
     display: block;
   }
 }
-@media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003644}}
-  .picomodal.evidensprofil td:nth-of-type(1):before, .picomodal.evidensprofil td:nth-of-type(2):before, .picomodal.evidensprofil td:nth-of-type(3):before, .picomodal.evidensprofil td:nth-of-type(4):before, .picomodal.evidensprofil td:nth-of-type(5):before, .picomodal.evidensprofil td:nth-of-type(6):before, .picomodal.evidensprofil td:nth-of-type(7):before, .picomodal.evidensprofil td:nth-of-type(8):before, .picomodal.evidensprofil td:nth-of-type(9):before {
-    font-weight: bold;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003645}}
-  .picomodal.evidensprofil td:nth-of-type(1):before {
-    content: "Utfall";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003646}}
-  .picomodal.evidensprofil td:nth-of-type(2):before {
-    content: "Tiltro til estimatene";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003647}}
-  .picomodal.evidensprofil td:nth-of-type(3):before {
-    content: "Relativ effekt";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003648}}
-  .picomodal.evidensprofil td:nth-of-type(4):before {
-    content: "Ingen behandling";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003649}}
-  .picomodal.evidensprofil td:nth-of-type(5):before {
-    content: "Parental antikoagulasjon";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003650}}
-  .picomodal.evidensprofil td:nth-of-type(6):before {
-    content: "Absolutt forskjell";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003651}}
-  .picomodal.evidensprofil td:nth-of-type(7):before {
-    content: "Antall inkluderte";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003652}}
-  .picomodal.evidensprofil td:nth-of-type(8):before {
-    content: "Antall studier";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003653}}
-  .picomodal.evidensprofil td:nth-of-type(9):before {
-    content: "Oppf\f8lgingstid";
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003659}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003599}}
 .picomodal.evidensprofil table th {
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003598}}
   .picomodal.evidensprofil table {
     margin: 30px auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003605}}
   .picomodal.evidensprofil table td {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003668}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003608}}
   .picomodal.evidensprofil table th, .picomodal.evidensprofil table td {
     padding: 5px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003612}}
   .picomodal.evidensprofil table td:first-child {
     padding-left: 30px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003616}}
   .picomodal.evidensprofil table th:first-child {
     padding-left: 30px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003680}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003620}}
   .picomodal.evidensprofil table td:last-child {
     padding-right: 30px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003623}}
   .picomodal.evidensprofil table th:last-child {
     padding-right: 30px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003627}}
   .picomodal.evidensprofil table tbody tr:nth-child(even) {
     background: #f5f5f5;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003633}}
 .picomodal .picomodalheader {
   background: #d1d0cf;
   font-weight: bold;
   padding: 10px 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003637}}
 .picomodal .picomodalheader a {
   text-decoration: underline;
   color: #838078;
@@ -1557,7 +1549,7 @@ form.retningslinjerSok #searchinput {
   top: 10px;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003644}}
 .picomodal .picomodalheader a:after {
   font-family: "fontAwesome";
   content: "";
@@ -1565,26 +1557,26 @@ form.retningslinjerSok #searchinput {
   font-size: inherit;
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003654}}
 .picomodal .summary {
   padding: 10px 30px;
 }
 
 @media (max-width: 1150px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003659}}
   .mfp-content {
     width: 100%;
     margin-top: 70px;
     margin-bottom: 70px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003666}}
 .picosummarycontent, .picoreferencescontent {
   min-width: 300px;
   max-width: 800px;
   padding: 30px 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_recommendations\.scss}line{font-family:\00003669}}
 .picosummarycontent table, .picoreferencescontent table {
   margin: inherit;
 }
@@ -1776,30 +1768,30 @@ form.retningslinjerSok #searchinput {
     padding: 30px 0 30px 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003152}}
 .Guidelinechildsection .aboutexpand .metadata .text {
   display: block;
   color: #838078;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003156}}
 .Guidelinechildsection .aboutexpand .metadata {
   padding: 0;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003156}}
   .Guidelinechildsection .aboutexpand .metadata {
     float: left;
     padding-right: 30px;
     border-right: 2px solid #004e66;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003165}}
 .Guidelinechildsection .aboutexpand > .text {
   padding: 0;
 }
 @media only screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003165}}
   .Guidelinechildsection .aboutexpand > .text {
     padding-left: 30px;
     width: 70%;
@@ -1807,28 +1799,28 @@ form.retningslinjerSok #searchinput {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003176}}
 .Guidelinechildsection .sectionlist {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003179}}
 .Guidelinechildsection .sectionlist .element {
   min-height: 100px;
   padding: 20px 30px;
   position: relative;
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003184}}
 .Guidelinechildsection .sectionlist .element:nth-child(odd) {
   background-color: #eeeded;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003187}}
 .Guidelinechildsection .sectionlist .element:nth-child(even) {
   background-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003193}}
 .Guidelinechildsection .sectionheading {
   /*Less padding on mobile */
   padding-right: 10px;
@@ -1837,12 +1829,12 @@ form.retningslinjerSok #searchinput {
   word-break: break-word;
 }
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003193}}
   .Guidelinechildsection .sectionheading {
     padding-right: 105px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003202}}
 .Guidelinechildsection .sectionheading span {
   line-height: 15px;
   margin-bottom: 10px;
@@ -1850,27 +1842,27 @@ form.retningslinjerSok #searchinput {
   color: #004e66;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003210}}
 .Guidelinechildsection .sectioninformation {
   display: inline-block;
   position: absolute;
   right: 30px;
   top: 28%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003215}}
 .Guidelinechildsection .sectioninformation .numberofrecommendations {
   color: #aeaba8;
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003218}}
 .Guidelinechildsection .sectioninformation .numberofrecommendations a {
   color: #aeaba8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003220}}
 .Guidelinechildsection .sectioninformation .numberofrecommendations a:visited {
   color: #aeaba8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003225}}
 .Guidelinechildsection .sectioninformation .numberofrecommendations > .number {
   font-family: "Soho Gothic W01 Light";
   color: #aeaba8;
@@ -1878,7 +1870,7 @@ form.retningslinjerSok #searchinput {
   font-size: 30px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003232}}
 .Guidelinechildsection .sectioninformation .haschildsections {
   width: 40px;
   height: 50px;
@@ -1892,19 +1884,19 @@ form.retningslinjerSok #searchinput {
 */
 /*hacking aside to fit with col-md-8 */
 @media only screen and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003245}}
   .Guidelinechildsection .guidelines.col-8 {
     margin-right: -50%;
   }
 }
 @media only screen and (max-width: 1199px) and (min-width: 950px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003245}}
   .Guidelinechildsection .guidelines.col-8 {
     margin-right: -54%;
   }
 }
 @media only screen and (max-width: 950px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Helsedirektoratet\/forfatterverktoy\/dev\/preview\/app\/styles\/partials\/_guideline_childsections\.scss}line{font-family:\00003245}}
   .Guidelinechildsection .guidelines.col-8 {
     margin-top: 0;
     margin-right: 0;
